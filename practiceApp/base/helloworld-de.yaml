@@ -17,7 +17,7 @@ spec:
       containers:
       - name: helloworld
         image: particule/helloworld
-        imagePullPolicy: Never
+        imagePullPolicy: IfNotPresent
         ports:
         - name: web
           containerPort: 80
